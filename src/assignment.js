@@ -37,11 +37,11 @@ function countEvenNumbers(arrayOfNumbers) {
         }
     }
 
-    let newArray = arrayOfNumbers.filter(isEven)
+    arrayOfNumbers = arrayOfNumbers.filter(isEven)
 
-    return newArray.length
+    return arrayOfNumbers.length
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+
 
 /**
  * Challenge - 3
@@ -63,11 +63,11 @@ function celsiusToFahrenheit(arrayOfNumbers) {
         return result
     }
 
-    let newArray = arrayOfNumbers.map(toFahrenheit)
+    arrayOfNumbers = arrayOfNumbers.map(toFahrenheit)
 
-    return newArray
+    return arrayOfNumbers
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
 
 
 // ========================
