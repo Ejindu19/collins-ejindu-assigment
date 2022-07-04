@@ -41,7 +41,7 @@ function countEvenNumbers(arrayOfNumbers) {
 
     return arrayOfNumbers.length
 }
-
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
@@ -67,7 +67,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 
     return arrayOfNumbers
 }
-
+assignment.celsiusToFahrenheit = celsiusToFahrenheit
 
 
 // ========================
